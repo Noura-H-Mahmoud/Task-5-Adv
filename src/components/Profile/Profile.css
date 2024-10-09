@@ -1,0 +1,26 @@
+.NM_Profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 91px;
+
+    h1 {
+        font-size: var(--small-font-size);
+        font-weight: var(--fourth-font-weight);
+    }
+}
+
+.NM_ImageProfile {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: #fff;
+
+    img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

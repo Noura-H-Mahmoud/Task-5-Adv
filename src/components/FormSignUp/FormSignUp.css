@@ -1,0 +1,28 @@
+.NM_SignUpForm {
+    margin-bottom: 24px;
+}
+
+.NM_InputsDiv {
+    width: 100%;
+    display: flex;
+    gap: 24.05px;
+    margin-bottom: 16px;
+}
+
+.NM_Email {
+    margin-bottom: 16px;
+}
+
+.NM_errorMessage {
+    color: var(--main-color);
+}
+
+@media screen and (max-height: 740px) {
+    .NM_SignUpForm {
+        margin-bottom: 12px;
+    }
+
+    .NM_InputsDiv {
+        margin-bottom: 14px;
+    }
+}

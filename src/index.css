@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --main-color: #FEAF00;
+  --second-color: #C4C4C4;
+  --third-color: #8080808C;
+  --red-color: #FE0000;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --inputs-color: #CDCDCD;
+  --text-color: #6C6C6C;
+  --line-color: #E5E5E5;
+  --bg-color: #F2EAE1;
+  --main-font: 'Montserrat', sans-serif;
+  --second-font: 'Open Sans', sans-serif;
+  --main-padding: 104px;
+  --main-font-weight: 400;
+  --second-font-weight: 500;
+  --third-font-weight: 600;
+  --fourth-font-weight: 700;
+  --xlarge-font-size: 60px;
+  --large-font-size: 40px;
+  --medium-font-size: 32px;
+  --second-medium-font-size: 22px;
+  --small-font-size: 17px;
+  --xsmall-font-size: 16px;
+  --xxsmall-font-size: 14px;
+  --xxxsmall-font-size: 13px;
+  --xxxxsmall-font-size: 12px;
+  --border-radius: 20px;
+  --second-border-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: var(--main-font);
+  font-size: var(--xxsmall-font-size);
+}

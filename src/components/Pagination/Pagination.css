@@ -1,0 +1,54 @@
+.NM_pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 4.94px;
+    }
+}
+
+.NM_Prev,
+.NM_Next,
+.dot {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #F1F1F1;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2.5px;
+}
+
+.NM_dots {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot,
+.NM_dots {
+    font-size: var(--xxxsmall-font-size);
+    font-family: var(--second-font);
+    color: #333333;
+}
+
+.dot:hover,
+.NM_Prev:hover,
+.NM_Next:hover,
+.ActivePagination {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+}
+
+.dot:hover,
+.NM_Prev:hover,
+.NM_Next:hover {
+    opacity: 71%;
+}

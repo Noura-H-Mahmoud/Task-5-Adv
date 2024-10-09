@@ -1,0 +1,22 @@
+.NM_Dashboard {
+    height: 100vh;
+    display: flex;
+    padding-left: 270px;
+
+    .NM_Container {
+        width: 100%;
+        max-width: calc(1440px - 270px);
+        margin: 0 auto;
+        padding: 24px 64px 48px;
+    }
+
+    .NM_MaxWidth {
+        max-width: calc(1440px - 270px);
+    }
+}
+
+@media screen and (max-width:992px) {
+    .NM_Dashboard .NM_Container {
+        padding: 24px 21px 48px;
+    }
+}

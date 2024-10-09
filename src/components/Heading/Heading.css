@@ -1,0 +1,13 @@
+.NM_Heading {
+    font-size: var(--xlarge-font-size);
+    font-weight: var(--third-font-weight);
+    margin-top: 76px;
+}
+
+@media screen and (max-width:992px),
+screen and (max-height:750px) {
+    .NM_Heading {
+        font-size: var(--large-font-size);
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,25 @@
+.NM_NavItem {
+    width: 100%;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--black-color);
+    padding-right: 56px;
+    padding-left: 40px;
+    border-radius: var(--second-border-radius);
+
+    p {
+        font-weight: var(--second-font-weight);
+    }
+}
+
+.NM_NavItem.active  {
+    background-color: var(--main-color);
+}
+
+.flex_reverse {
+    flex-direction: row-reverse;
+}

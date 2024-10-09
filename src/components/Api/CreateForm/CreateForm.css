@@ -1,0 +1,40 @@
+.NM_FormProduct {
+    display: flex;
+    flex-direction: column;
+}
+
+.NM_FormContainerProduct {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 76px 45px 120px 0;
+}
+
+.NM_namePrice {
+    width: 41.71214%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.NM_File {
+    width: 54.865%;
+}
+
+.NM_MessageProduct {
+    color: var(--main-color);
+    padding: 20px 0;
+}
+
+@media screen and (max-width:992px),
+screen and (max-height:750px) {
+    .NM_FormContainerProduct {
+        padding: 30px 45px 40px 0;
+    }
+
+    .NM_namePrice {
+        gap: 30px;
+    }
+}

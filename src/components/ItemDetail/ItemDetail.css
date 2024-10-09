@@ -1,0 +1,33 @@
+.NM_ItemDetail {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+    h2 {
+        font-size: var(--xlarge-font-size);
+        font-weight: var(--third-font-weight);
+    }
+
+    p {
+        font-size: var(--large-font-size);
+        font-weight: var(--second-font-weight);
+        color: var(--third-color);
+    }
+}
+
+@media screen and (max-width:1240px),
+screen and (max-height:750px) {
+    .NM_ItemDetail {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+
+        h2 {
+            font-size: var(--medium-font-size);
+        }
+
+        p {
+            font-size: var(--second-medium-font-size);
+        }
+    }
+}

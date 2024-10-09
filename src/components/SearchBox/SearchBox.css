@@ -1,0 +1,39 @@
+.NM_InputSearchContainer {
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+.NM_InputSearch {
+    width: 100%;
+    height: 40px;
+    padding-left: 16px;
+    background: url('../../assets/images/searchIcon.svg') no-repeat right 14px bottom 12px;
+    background-size: 16px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--line-color);
+    display: flex;
+    align-items: center;
+}
+
+.NM_InputSearch:focus {
+    outline: 1px solid var(--main-color);
+    border: none;
+}
+
+.NM_InputSearch::placeholder {
+    color: var(--second-color);
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="search"]::-moz-search-cancel {
+    display: none;
+}
+
+input[type="search"]::-ms-clear {
+    display: none;
+}

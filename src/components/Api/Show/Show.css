@@ -1,0 +1,76 @@
+.NM_ArrowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1PX solid var(--black-color);
+    border-radius: 36px;
+
+    img {
+        width: 9.88px;
+        height: 16px;
+    }
+}
+
+.NM_PriceAdd {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.NM_ProductDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    img {
+        width: 373px;
+        height: 373px;
+        border-radius: 16px;
+        margin: auto;
+    }
+
+    .NM_Updated {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:1260px),
+screen and (max-height:860px) {
+    .NM_ProductDetail img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:1240px),
+screen and (max-height:860px) {
+
+    .NM_PriceAdd,
+    .NM_ProductDetail {
+        gap: 20px;
+    }
+
+    .NM_ProductDetail .NM_Updated {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:809px),
+screen and (max-height:750px) {
+    .NM_ProductDetail .NM_Updated {
+        justify-content: start;
+        margin-top: 5px;
+        margin-bottom: 11px;
+    }
+
+    .NM_PriceAdd,
+    .NM_ProductDetail {
+        gap: 5px;
+    }
+}

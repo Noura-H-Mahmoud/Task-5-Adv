@@ -1,0 +1,72 @@
+.mainStyleButton {
+    border-radius: var(--second-border-radius);
+    border: none;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.mainStyleButton:hover {
+    border: 1px solid var(--main-color);
+    background-color: var(--white-color);
+    color: var(--main-color);
+    transition: .1s ease-in-out;
+}
+
+.NM_StyleButtonAuth {
+    width: 100%;
+    height: 44px;
+    text-transform: uppercase;
+}
+
+.NM_StyleAdd {
+    width: 199px;
+    height: 44px;
+}
+
+.NM_StyleEdit {
+    width: 81px;
+    height: 34px;
+}
+
+.NM_StyleDelete {
+    background-color: var(--red-color);
+}
+
+.NM_StyleDelete:hover {
+    border: 1px solid var(--red-color);
+    background-color: var(--white-color);
+    color: var(--red-color);
+    transition: .1s ease-in-out;
+}
+
+.NM_Save {
+    width: 199px;
+    height: 61px;
+    border-radius: var(--second-border-radius);
+    font-size: var(--medium-font-size);
+    font-weight: var(--second-font-weight);
+    margin: auto;
+}
+
+.NM_DeleteYesNo {
+    font-size: var(--medium-font-size);
+    font-weight: var(--second-font-weight);
+    width: 199px;
+    height: 61px;
+    border-radius: var(--second-border-radius);
+}
+
+@media screen and (max-width:992px),
+screen and (max-height:750px) {
+    .NM_StyleButtonAuth {
+        height: 40px;
+    }
+
+    .NM_Save,
+    .NM_DeleteYesNo {
+        width: 100px;
+        height: 40px;
+        font-size: var(--second-medium-font-size);
+    }
+}

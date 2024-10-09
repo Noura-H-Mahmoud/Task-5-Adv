@@ -1,0 +1,128 @@
+.NM_Input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    gap: 8px;
+
+    input {
+        width: 100%;
+        height: 44px;
+        border: 1px solid var(--line-color);
+        border-radius: var(--second-border-radius);
+        padding: 14px 0 15px 12.03px;
+    }
+
+    input::placeholder {
+        color: var(--inputs-color);
+        font-size: var(--xxxxsmall-font-size);
+    }
+
+    input:focus {
+        outline-color: var(--main-color);
+    }
+
+    label {
+        color: var(--text-color);
+    }
+}
+
+.NM_ImageInput {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    margin-top: 9px;
+    margin-bottom: 15px;
+    border: 10px solid transparent;
+    border-image: url('../../assets/images/Upload.svg') 10 round;
+    position: relative;
+}
+
+.NM_UploadIcon {
+    width: 40px;
+    height: 36px;
+}
+
+.NM_Uploaded {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bigSizeImagePreview {
+    width: 208px;
+    height: 208px;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.gapFormProduct16 {
+    gap: 16px;
+}
+
+.gapFormProduct14 {
+    gap: 14px;
+}
+
+.NM_ImageInputProduct {
+    width: 100%;
+    height: 209px;
+    margin: 0;
+}
+
+.NM_UploadIconBig {
+    width: 120px;
+    height: 108px;
+}
+
+.NM_InputProduct {
+    label {
+        font-size: var(--medium-font-size);
+        font-weight: var(--second-font-weight);
+    }
+}
+
+@media screen and (max-height:740px) {
+    .NM_Input {
+        gap: 4px;
+
+        input {
+            height: 40px;
+        }
+    }
+
+    .NM_ImageInputResponsive {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width:992px),
+screen and (max-height:750px) {
+    .gapFormProduct14 {
+        height: 172px;
+    }
+
+    .NM_InputProduct {
+        label {
+            font-size: var(--second-medium-font-size);
+        }
+    }
+
+    .NM_UploadIconBig {
+        width: 70px;
+        height: 60px;
+    }
+
+    .bigSizeImagePreview {
+        width: 130px;
+        height: 130px;
+    }
+}

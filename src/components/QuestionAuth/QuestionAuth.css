@@ -1,0 +1,14 @@
+.NM_QuestionAuth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    p {
+        color: var(--text-color);
+    }
+
+    a {
+        color: var(--main-color);
+    }
+}
