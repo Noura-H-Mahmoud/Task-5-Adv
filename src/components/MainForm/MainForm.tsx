@@ -20,15 +20,15 @@ export default function MainForm({ logo, title, text, className, classNameLogo, 
       <img className={`NM_Logo ${classNameLogo}`} src={logo} alt="logo" />
       <h1>{title}</h1>
       <p className={`NM_MainText ${classNameText}`}>{text}</p>
-      {location.pathname === '/signUp' ? (
+      {location.pathname === '/Task-5-Adv/signUp' ? (
         <>
           <FormSignUp />
-          <QuestionAuth para='Do you have an account?' link='/signIn' textLink='Sign in' />
+          <QuestionAuth para='Do you have an account?' link='/Task-5-Adv/signIn' textLink='Sign in' />
         </>
       ) : (
         <>
           <FormLogin />
-          <QuestionAuth para="Don’t have an account?" link='/signUp' textLink='Create one' />
+          <QuestionAuth para="Don’t have an account?" link='/Task-5-Adv/signUp' textLink='Create one' />
         </>
       )}
     </div>

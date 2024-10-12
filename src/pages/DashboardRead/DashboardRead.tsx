@@ -8,7 +8,7 @@ export default function DashboardRead() {
   const navigate = useNavigate();
   useEffect(() => {
     if (!localStorage.getItem('token')) {
-      navigate('/signIn')
+      navigate('/Task-5-Adv/signIn')
     }
   }, [])
 

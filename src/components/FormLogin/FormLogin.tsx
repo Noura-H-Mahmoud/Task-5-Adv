@@ -29,7 +29,7 @@ export default function FormLogin() {
                 localStorage.setItem('token', `Bearer ${res.data.token}`);
                 localStorage.setItem('image', res.data.user.profile_image_url);
                 localStorage.setItem('username', res.data.user.user_name);
-                navigate('/');
+                navigate('/Task-5-Adv/');
             })
             .catch(error => {
                 // console.log(error);

@@ -68,7 +68,7 @@ export default function FormSignUp() {
                     localStorage.setItem('token', `Bearer ${userData.token}`);
                     localStorage.setItem('image', userData.user?.profile_image_url || '');
                     localStorage.setItem('username', userData.user?.user_name || '');
-                    navigate('/');
+                    navigate('/Task-5-Adv/');
                 } else {
                     setErrorMessage('Invalid user data received from the server.');
                 }
